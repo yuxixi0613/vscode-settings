@@ -8,6 +8,7 @@
 	"workbench.editor.showTabs": "multiple",
 	/* 控制当超出可用空间时，选项卡是否应在多行之间换行，或者是否应显示滚动条 */
 	"workbench.editor.wrapTabs": true,
+	/* 控制工作台中活动栏的方向 */
 	"workbench.activityBar.orientation": "vertical",
 
 	// 文本编辑器 - editor
@@ -27,6 +28,8 @@
 	"editor.guides.bracketPairs": true,
 	/* 迷你地图将根据需要拉伸或缩小以填充编辑器的高度(不滚动)。 */
 	"editor.minimap.size": "fill",
+	/* 控制是否显示缩略图 */
+	"editor.minimap.enabled": true,
 	/* 控制总是显示迷你地图滑块 */
 	"editor.minimap.showSlider": "always",
 	/* 始终启用平滑脱字号动画 */
