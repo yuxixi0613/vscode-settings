@@ -1,146 +1,146 @@
 {
-	// 工作台 - workbench
-	/* 颜色主题 */
-	"workbench.colorTheme": "Macaroon Theme",
-	/* 指定工作台中使用的文件图标主题 */
-	"workbench.iconTheme": "material-icon-theme",
-	/* 每个编辑器在编辑器标题区域显示为选项卡 */
-	"workbench.editor.showTabs": "multiple",
-	/* 控制当超出可用空间时，选项卡是否应在多行之间换行，或者是否应显示滚动条 */
-	"workbench.editor.wrapTabs": true,
-	/* 控制工作台中活动栏的方向 */
-	"workbench.activityBar.orientation": "vertical",
+  // 工作台 - workbench
+  /* 颜色主题 */
+  "workbench.colorTheme": "Macaroon Theme",
+  /* 指定工作台中使用的文件图标主题 */
+  "workbench.iconTheme": "material-icon-theme",
+  /* 每个编辑器在编辑器标题区域显示为选项卡 */
+  "workbench.editor.showTabs": "multiple",
+  /* 控制当超出可用空间时，选项卡是否应在多行之间换行，或者是否应显示滚动条 */
+  "workbench.editor.wrapTabs": true,
+  /* 控制工作台中活动栏的方向 */
+  "workbench.activityBar.orientation": "vertical",
 
-	// 文本编辑器 - editor
-	/* 在保存时格式化文件 */
-	// "editor.formatOnSave": true,
-	/* 控制字体系列 */
-	"editor.fontFamily": "'Fira Code Medium', monospace, '苹方-简', 'STYuanti-SC-Regular', Menlo, Monaco, 'Courier New'",
-	/* 启用/禁用字体连字 */
-	"editor.fontLigatures": true,
-	/* 一个制表符等于的空格数 */
-	"editor.tabSize": 2,
-	/* 控制字体大小(像素) */
-	"editor.fontSize": 18,
-	/* 可折叠区域的最大数量。如果当前源具有大量可折叠区域，那么增加此值可能会导致编辑器的响应速度变慢。 */
-	"editor.foldingMaximumRegions": 8000,
-	/* 启用括号对参考线 */
-	"editor.guides.bracketPairs": true,
-	/* 迷你地图将根据需要拉伸或缩小以填充编辑器的高度(不滚动)。 */
-	"editor.minimap.size": "fill",
-	/* 控制是否显示缩略图 */
-	"editor.minimap.enabled": true,
-	/* 控制总是显示迷你地图滑块 */
-	"editor.minimap.showSlider": "always",
-	/* 始终启用平滑脱字号动画 */
-	"editor.cursorSmoothCaretAnimation": "on",
-	/* 控制光标的动画样式 */
-	"editor.cursorBlinking": "expand",
-	/* 控制在编辑器中是否允许通过拖放来移动选中内容 */
-	"editor.dragAndDrop": false,
-	/* 垂直滚动条的宽度 */
-	"editor.scrollbar.verticalScrollbarSize": 0,
-	/* 控制显示悬停提示前的等待时间 (毫秒) */
-	"editor.hover.delay": 200,
-	/* 控制隐藏悬停提示前的等待时间(毫秒) */
-	"editor.hover.hidingDelay": 100,
-	/* 禁用代码操作小灯泡提示代码菜单 */
-	"editor.lightbulb.enabled": "off",
-	/* 始终显示行号槽上的折叠控件 */
-	"editor.showFoldingControls": "always",
+  // 文本编辑器 - editor
+  /* 在保存时格式化文件 */
+  // "editor.formatOnSave": true,
+  /* 控制字体系列 */
+  "editor.fontFamily": "'Fira Code Medium', monospace, '苹方-简', 'STYuanti-SC-Regular', Menlo, Monaco, 'Courier New'",
+  /* 启用/禁用字体连字 */
+  "editor.fontLigatures": true,
+  /* 一个制表符等于的空格数 */
+  "editor.tabSize": 2,
+  /* 控制字体大小(像素) */
+  "editor.fontSize": 16,
+  /* 可折叠区域的最大数量。如果当前源具有大量可折叠区域，那么增加此值可能会导致编辑器的响应速度变慢。 */
+  "editor.foldingMaximumRegions": 8000,
+  /* 启用括号对参考线 */
+  "editor.guides.bracketPairs": true,
+  /* 迷你地图将根据需要拉伸或缩小以填充编辑器的高度(不滚动)。 */
+  "editor.minimap.size": "fill",
+  /* 控制是否显示缩略图 */
+  "editor.minimap.enabled": true,
+  /* 控制总是显示迷你地图滑块 */
+  "editor.minimap.showSlider": "always",
+  /* 始终启用平滑脱字号动画 */
+  "editor.cursorSmoothCaretAnimation": "on",
+  /* 控制光标的动画样式 */
+  "editor.cursorBlinking": "expand",
+  /* 控制在编辑器中是否允许通过拖放来移动选中内容 */
+  "editor.dragAndDrop": false,
+  /* 垂直滚动条的宽度 */
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  /* 控制显示悬停提示前的等待时间 (毫秒) */
+  "editor.hover.delay": 200,
+  /* 控制隐藏悬停提示前的等待时间(毫秒) */
+  "editor.hover.hidingDelay": 100,
+  /* 禁用代码操作小灯泡提示代码菜单 */
+  "editor.lightbulb.enabled": "off",
+  /* 始终显示行号槽上的折叠控件 */
+  "editor.showFoldingControls": "always",
 
-	// 功能-资源管理器 - explorer
-	/* 控制资源管理器是否应以紧凑形式呈现文件夹，单个子文件夹将不被压缩在组合的树元素中 */
-	"explorer.compactFolders": false,
-	// 功能-终端 - terminal
-	/* 控制终端的字体系列 */
-	"terminal.integrated.fontFamily": "Fira Code Medium",
-	/** macOS 上的默认终端配置文件 */
-	"terminal.integrated.defaultProfile.osx": "bash",
-	/* 控制终端聚焦时终端光标的样式 */
-	"terminal.integrated.cursorStyle": "line",
-	/* 控制终端光标是否闪烁 */
-	"terminal.integrated.cursorBlinking": true,
-	/* 控制终端未聚焦时终端光标的样式 */
-	"terminal.integrated.cursorStyleInactive": "none",
-	/* 设置终端 line 光标的宽度 */
-	"terminal.integrated.cursorWidth": 2,
+  // 功能-资源管理器 - explorer
+  /* 控制资源管理器是否应以紧凑形式呈现文件夹，单个子文件夹将不被压缩在组合的树元素中 */
+  "explorer.compactFolders": false,
+  // 功能-终端 - terminal
+  /* 控制终端的字体系列 */
+  "terminal.integrated.fontFamily": "Fira Code Medium",
+  /** macOS 上的默认终端配置文件 */
+  "terminal.integrated.defaultProfile.osx": "bash",
+  /* 控制终端聚焦时终端光标的样式 */
+  "terminal.integrated.cursorStyle": "line",
+  /* 控制终端光标是否闪烁 */
+  "terminal.integrated.cursorBlinking": true,
+  /* 控制终端未聚焦时终端光标的样式 */
+  "terminal.integrated.cursorStyleInactive": "none",
+  /* 设置终端 line 光标的宽度 */
+  "terminal.integrated.cursorWidth": 2,
 
-	// 安全性 - security
-	/* 始终允许不受信任的文件引入受信任的工作区，而不显示提示 */
-	"security.workspace.trust.untrustedFiles": "open",
+  // 安全性 - security
+  /* 始终允许不受信任的文件引入受信任的工作区，而不显示提示 */
+  "security.workspace.trust.untrustedFiles": "open",
 
-	// 配置语言的文件关联(如 "*.extension": "html")。这些关联的优先级高于已安装语言的默认关联。
-	"files.associations": {
-		"*.env.development": "env",
-		"*.env.oem": "env",
-		"*.env.production": "env",
-		"*.env.uat": "env"
-	},
+  // 配置语言的文件关联(如 "*.extension": "html")。这些关联的优先级高于已安装语言的默认关联。
+  "files.associations": {
+    "*.env.development": "env",
+    "*.env.oem": "env",
+    "*.env.production": "env",
+    "*.env.uat": "env"
+  },
 
-	/* 行为配置 */
-	// 在不属于任何工程的 JavaScript 文件中启用或禁用 experimentalDecorators。现有 jsconfig.json 或 tsconfig.json 文件将覆盖此设置。
-	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-	// 使用制表符缩进，而不是空格缩进。
-	"prettier.useTabs": true,
-	// 使用 .editorconfig 中的配置选项。详见 prettier.resolveConfig 文档。
-	// "prettier.useEditorConfig": false,
-	// 指定一个制表符等于的空格数。
-	"prettier.tabWidth": 4,
+  /* 行为配置 */
+  // 在不属于任何工程的 JavaScript 文件中启用或禁用 experimentalDecorators。现有 jsconfig.json 或 tsconfig.json 文件将覆盖此设置。
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  // 使用制表符缩进，而不是空格缩进。
+  "prettier.useTabs": false,
+  // 使用 .editorconfig 中的配置选项。详见 prettier.resolveConfig 文档。
+  // "prettier.useEditorConfig": false,
+  // 指定一个制表符等于的空格数。
+  "prettier.tabWidth": 2,
 
-	// prettier格式化
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"[html]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[css]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[vue]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[less]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[scss]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+  // prettier格式化
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-	// ESLint
-	"eslint.options": {
-		"extensions": [".ts", ".html"]
-	},
-	"eslint.validate": [
-		"javascript",
-		"javascriptreact",
-		"typescript",
-		"typescriptreact",
-		"html"
-	],
+  // ESLint
+  "eslint.options": {
+    "extensions": [".ts", ".html"]
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html"
+  ],
 
-	"angular2-files.menu.interface": false,
-	"angular2-files.menu.enum": false,
-	"angular2-files.menu.class": false,
-	"angular2-files.menu.route": false,
-	"diffEditor.ignoreTrimWhitespace": true,
-	"window.commandCenter": false,
-	"[yaml]": {
-		"diffEditor.ignoreTrimWhitespace": true
-	},
-	"typescript.experimental.updateImportsOnPaste": true,
+  "angular2-files.menu.interface": false,
+  "angular2-files.menu.enum": false,
+  "angular2-files.menu.class": false,
+  "angular2-files.menu.route": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "window.commandCenter": false,
+  "[yaml]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "typescript.experimental.updateImportsOnPaste": true,
 
-	/* 未跟踪的更改单独显示在“源代码管理”视图中。它们也被排除在几个操作之外。 */
-	"git.untrackedChanges": "separate"
+  /* 未跟踪的更改单独显示在“源代码管理”视图中。它们也被排除在几个操作之外。 */
+  "git.untrackedChanges": "separate"
 }
