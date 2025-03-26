@@ -81,12 +81,6 @@
   /* 行为配置 */
   // 在不属于任何工程的 JavaScript 文件中启用或禁用 experimentalDecorators。现有 jsconfig.json 或 tsconfig.json 文件将覆盖此设置。
   "js/ts.implicitProjectConfig.experimentalDecorators": true,
-  // 使用制表符缩进，而不是空格缩进。
-  "prettier.useTabs": false,
-  // 使用 .editorconfig 中的配置选项。详见 prettier.resolveConfig 文档。
-  // "prettier.useEditorConfig": false,
-  // 指定一个制表符等于的空格数。
-  "prettier.tabWidth": 2,
 
   // prettier格式化
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -117,6 +111,15 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  /* 使用制表符缩进，而不是空格缩进 */
+  "prettier.useTabs": false,
+  /* 使用 .editorconfig 中的配置选项。详见 prettier.resolveConfig 文档 */
+  // "prettier.useEditorConfig": false,
+  /* 指定一个制表符等于的空格数 */
+  "prettier.tabWidth": 2,
+  /* 每行代码的长度限制 */
+  "prettier.printWidth": 100,
 
   // ESLint
   "eslint.options": {
